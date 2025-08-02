@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Entre Lirios y Delirios</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #f4f0ec, #ffffff);
+      color: #2e2e2e;
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    header {
+      background-color: #fff5f9;
+      padding: 2rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      border-bottom: 3px solid #f8e1e7;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #b8486f;
+    }
+
+    section {
+      padding: 2rem;
+      animation: slideIn 1s ease-in-out;
+    }
+
+    h2 {
+      color: #c95a7b;
+    }
+
+    p {
+      line-height: 1.6;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin-bottom: 0.8rem;
+    }
+
+    a {
+      color: #b8486f;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    form {
+      margin-top: 2rem;
+      background: #fefcfc;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    button {
+      background-color: #c95a7b;
+      color: white;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #a73f61;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #999;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0;}
+      to {opacity: 1;}
+    }
+
+    @keyframes slideIn {
+      from {transform: translateY(20px); opacity: 0;}
+      to {transform: translateY(0); opacity: 1;}
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Entre Lirios y Delirios</h1>
+  </header>
+
+  <section>
+    <h2>Sinopsis</h2>
+    <p>
+      En una de las tres casas gobernantes de este mundo, llamada "Los Lirios Blancos", se encuentra la emperatriz. Ella ha entrado en la etapa de madurez de sus poderes y descubre que, como le advirtió su padre, este don no es del todo bueno. 
+      Junto con el poder, recibe también las cadenas de una maldición ancestral originada por desobediencia. 
+      Sin embargo, no todo está perdido: existe un alivio para su locura, pero no será fácil alcanzarlo. La emperatriz se verá forzada a hacer lo impensable para calmar sus delirios...
+    </p>
+  </section>
+
+  <section>
+    <h2>Conéctate conmigo</h2>
+    <ul>
+      <li>🌐 Sitio web: <a href="#">www.liriosydelirios.com</a></li>
+      <li>💬 Grupo de lectores: <a href="https://chat.whatsapp.com/FDKoIC9jEDeLRXzKqxvjFu" target="_blank">Únete en WhatsApp</a></li>
+      <li>📧 Escríbeme: <a href="mailto:los.susurros.de.los.lirios@gmail.com">los.susurros.de.los.lirios@gmail.com</a></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Escríbeme directamente</h2>
+    <form name="contact-form">
+      <input type="text" name="name" placeholder="Tu nombre" required />
+      <input type="email" name="email" placeholder="Tu correo electrónico" required />
+      <textarea name="message" rows="4" placeholder="Tu mensaje..." required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    © 2025 Entre Lirios y Delirios. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
